@@ -17,4 +17,8 @@ public class CucumberHooks {
 	public void mortgageSetup() {
 		System.out.println("User is on mortgage banking page");
 	}
+	@After()
+	public void tearDown1() {
+		System.out.println("Clear all entries");
+	}
 }
