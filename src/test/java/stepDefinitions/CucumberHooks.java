@@ -21,7 +21,18 @@ public class CucumberHooks {
 	public void tearDown1() {
 		System.out.println("Clear all entries");
 	}
-	private void sysout() {
+	private void sysout1() {
+		System.out.println("Adding these for git commands demo");
+
+	}
+	private void sysout2() {
+		System.out.println("Adding these for git commands demo");
+
+	}
+	private void sysout3() {
+		System.out.println("Adding these for git commands demo");
+
+	}private void sysout4() {
 		System.out.println("Adding these for git commands demo");
 
 	}
